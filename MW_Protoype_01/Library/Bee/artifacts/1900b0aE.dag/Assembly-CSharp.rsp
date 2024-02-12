@@ -357,11 +357,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/Code/BaseRigidbody.cs"
-"Assets/Scripts/Code/DroneController.cs"
-"Assets/Scripts/Code/DroneEngine.cs"
-"Assets/Scripts/Code/DroneInputs.cs"
+"Assets/Scripts/Bee/BaseRigidbody.cs"
+"Assets/Scripts/Bee/DroneController.cs"
+"Assets/Scripts/Bee/DroneEngine.cs"
+"Assets/Scripts/Bee/DroneInputs.cs"
 "Assets/Scripts/Interfaces/Engine.cs"
+"Assets/Scripts/Pollination/PollinationManager.cs"
 -langversion:9.0
 
 /deterministic
