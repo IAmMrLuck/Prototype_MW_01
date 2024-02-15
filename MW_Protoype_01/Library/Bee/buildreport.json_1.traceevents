@@ -1,0 +1,517 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1707987017058962, "dur": 390528, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707987017058970, "dur": 14797, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707987017073770, "dur": 31527, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707987017105299, "dur": 194751, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707987017300052, "dur": 143065, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707987017443119, "dur": 6371, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707987017450179, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1707987017186846, "dur": 86070, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707987017187673, "dur": 34905, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707987017259366, "dur": 4240, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707987017263609, "dur": 9301, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707987017264281, "dur": 7826, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707987017276406, "dur": 1010, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1707987017275820, "dur": 1612, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707987017450241, "dur": 139, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1707987017329737, "dur":3963, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017333705, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1707987017333746, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1707987017333759, "dur":316, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1707987017334098, "dur":414, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017334512, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407698, "dur":239, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407937, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407949, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407951, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407956, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407957, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407961, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407961, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407968, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407969, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407972, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407972, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407976, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407977, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407979, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407980, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407984, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407985, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407987, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407988, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407992, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407992, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407995, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407996, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017407999, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017408010, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017408023, "dur":1608, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1707987017334331, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017334547, "dur":3565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017338116, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1707987017338182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017340613, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1707987017342831, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1707987017342857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017342861, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1707987017344505, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1707987017344532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017345171, "dur":17351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1707987017362552, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017362585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017362591, "dur":7906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017370533, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017370572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017370576, "dur":6782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017377393, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017377465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017377471, "dur":3674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017381191, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017381256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017381261, "dur":3875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017385173, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017385212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017385219, "dur":4350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017389607, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017389645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017389652, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017392756, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017393093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017393098, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017396576, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017396611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017396617, "dur":3671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017400322, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017400358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017400363, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1707987017404186, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1707987017404308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1707987017404313, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1707987017405776, "dur":1920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017334970, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017334972, "dur":3209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017338181, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1707987017338228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017344430, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1707987017345631, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017345661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017346354, "dur":23679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017370068, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017370114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017370140, "dur":6248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017376427, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017376469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017376476, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017380094, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017380132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017380137, "dur":3757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017383920, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017383944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017383948, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017388452, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017388477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017388480, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017391804, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017392146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017392152, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017395134, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017395173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017395204, "dur":5679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017400914, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017400958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1707987017400963, "dur":5970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1707987017406956, "dur":726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017334441, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017334580, "dur":3529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017338116, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1707987017338182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017340922, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1707987017342130, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1707987017342157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017342187, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1707987017343532, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1707987017343565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017343568, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1707987017344681, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017344716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017346359, "dur":17662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017364063, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017364105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017364112, "dur":8627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017372793, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017372836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017372844, "dur":5824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017378706, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017378743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017378748, "dur":3800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017382574, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017382650, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017382655, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017387842, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017387875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017387881, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017390584, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017390628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017390633, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017393811, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017393946, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017393951, "dur":5681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017399684, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017399735, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017399741, "dur":4106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1707987017403880, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1707987017403996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1707987017404002, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1707987017406027, "dur":1660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017334539, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017334539, "dur":3567, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017338116, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1707987017338118, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017338167, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1707987017338172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017338986, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1707987017341234, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1707987017341279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017341864, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1707987017343491, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1707987017343530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017343534, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1707987017344876, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017344908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017346370, "dur":22243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017368665, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017368698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017368703, "dur":7722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017376462, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017376503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017376509, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017380199, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017380238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017380243, "dur":3477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017383758, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017383798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017383803, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017388717, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017388753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017388758, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017392172, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017392377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017392382, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017396097, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017396121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017396125, "dur":3480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017399640, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017399722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017399727, "dur":4929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1707987017404697, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1707987017404731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1707987017404736, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1707987017407667, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1707987017407668, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017334677, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017334678, "dur":3430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017338116, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1707987017338196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017341792, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1707987017343664, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017343702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017344084, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017347184, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017347230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017357189, "dur":13396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017370630, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017370669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017370673, "dur":7981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017378693, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017378732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017378739, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017382036, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017382059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017382063, "dur":4372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017386469, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017386503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017386510, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017389778, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017389810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017389816, "dur":3625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017393470, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017393595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017393601, "dur":3886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017397529, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017397568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017397573, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017401310, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017401361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017401365, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1707987017404883, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1707987017404913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1707987017404917, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1707987017407071, "dur":621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017334773, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017334774, "dur":3337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017338115, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1707987017338203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017341963, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1707987017344213, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01.exe" }}
+,{ "pid":12345, "tid":6, "ts":1707987017344270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017344275, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01.exe" }}
+,{ "pid":12345, "tid":6, "ts":1707987017347575, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017347610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017357200, "dur":15473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017372717, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017372772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017372782, "dur":5915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017378732, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017378764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017378769, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017381861, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017381904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017381909, "dur":5234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017387179, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017387219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017387224, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017390642, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017390685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017390690, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017394301, "dur":865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017395168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017395174, "dur":4881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017400090, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017400123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017400128, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1707987017403668, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1707987017403708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1707987017403714, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1707987017405620, "dur":2077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017334869, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017334870, "dur":3253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017338124, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1707987017338190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017341157, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1707987017342170, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1707987017342204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017342208, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1707987017343811, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017343852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017344031, "dur":24914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017368967, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017368990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017368994, "dur":4505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017373539, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017373578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017373583, "dur":6914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017380536, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017380574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017380579, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017383718, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017383755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017383761, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017388196, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017388239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017388245, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017392092, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017392145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017392151, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017394824, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017394856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017394861, "dur":4685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017399583, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017399614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017399619, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1707987017402819, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1707987017402857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017402910, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1707987017404461, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1707987017404504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1707987017404509, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1707987017406447, "dur":1249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017335090, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017335090, "dur":3061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017338152, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1707987017338217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017343930, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1707987017345945, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017345968, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017346351, "dur":23279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017369658, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017369688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017369692, "dur":7654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017377383, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017377463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017377469, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017381180, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017381216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017381220, "dur":4031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017385275, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017385328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017385334, "dur":4170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017389538, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017389571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017389577, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017393164, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017393316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017393322, "dur":3897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017397255, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017397292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017397298, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017400390, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017400431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017400436, "dur":3981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1707987017404460, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1707987017404496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1707987017404502, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1707987017407035, "dur":662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017335150, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017335150, "dur":2998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017338148, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1707987017338204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017342550, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1707987017344130, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1707987017344175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017344179, "dur":9835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1707987017354042, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017354067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017357208, "dur":13271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017370524, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017370562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017370567, "dur":6764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017377367, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017377459, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017377466, "dur":4053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017381555, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017381596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017381601, "dur":5199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017386836, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017386869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017386874, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017390398, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017390420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017390424, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017393769, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017394128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017394133, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017398259, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017398297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017398304, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017401646, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017401960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017401965, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1707987017405257, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1707987017405385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1707987017405412, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1707987017407567, "dur":145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017335228, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017335228, "dur":2885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017338115, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1707987017338193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017341293, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1707987017343831, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017343860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017343863, "dur":36055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017379957, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017380009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017380036, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017382976, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017383028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017383034, "dur":5213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017388279, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017388312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017388318, "dur":3732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017392088, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017392584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017392590, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017396009, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017396042, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017396048, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017399415, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017399483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017399491, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017402546, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017402692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1707987017402700, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1707987017405531, "dur":2153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017335334, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017335335, "dur":2815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017338151, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1707987017338214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017343319, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1707987017344727, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017344761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017346292, "dur":22305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017368633, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017368672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017368678, "dur":7736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017376459, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017376501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017376507, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017380106, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017380145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017380151, "dur":5074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017385262, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017385298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017385304, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017389678, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017389746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017389751, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017392852, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017392974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017392979, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017396758, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017396812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017396819, "dur":3574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017400424, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017400457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017400462, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1707987017404764, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1707987017404797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1707987017404803, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1707987017407520, "dur":165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017335460, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017335460, "dur":2663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017338123, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1707987017338190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017340900, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1707987017343556, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1707987017343590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017343596, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1707987017345529, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017345566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017346301, "dur":17910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017364250, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017364287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017364292, "dur":9130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017373456, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017373729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017373734, "dur":6044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017379818, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017379856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017379862, "dur":2864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017382755, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017382777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017382781, "dur":4606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017387433, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017387471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017387477, "dur":3829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017391340, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017391501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017391507, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017395322, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017395376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017395380, "dur":4696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017400109, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017400165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017400170, "dur":4670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1707987017404874, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1707987017404908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1707987017404912, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/conal/MajorWork/Builds/BeeFlight3D/MW_Protoype_01_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1707987017407468, "dur":218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1707987017410809, "dur":2093, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1707987017450445, "dur": 483, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1707987017450171, "dur": 782, "ph": "X", "name": "Write chrome-trace events", "args": {} },
