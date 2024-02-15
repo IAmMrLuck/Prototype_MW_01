@@ -243,6 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 737548bd743d83c4881272af217229a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  petalMaterial: {fileID: 2100000, guid: 27072b8e4ef2052478b28302ed8ef9f8, type: 2}
 --- !u!135 &2894331900631349476
 SphereCollider:
   m_ObjectHideFlags: 0
