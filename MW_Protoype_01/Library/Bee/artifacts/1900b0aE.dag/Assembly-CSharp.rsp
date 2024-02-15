@@ -361,6 +361,7 @@
 "Assets/Scripts/Bee/DroneController.cs"
 "Assets/Scripts/Bee/DroneEngine.cs"
 "Assets/Scripts/Bee/DroneInputs.cs"
+"Assets/Scripts/Camera/CameraController.cs"
 "Assets/Scripts/Interfaces/Engine.cs"
 "Assets/Scripts/Pollination/PollinationManager.cs"
 -langversion:9.0

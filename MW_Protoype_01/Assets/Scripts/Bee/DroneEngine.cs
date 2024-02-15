@@ -32,9 +32,7 @@ namespace ConaLuk
 
         public void UpdateEngine(Rigidbody rb, DroneInputs inputs)
         {
-            // Debug.Log(droneInputs.Throtle);
-            // Debug.Log(changingAltitude);
-            // Debug.Log("Running Engine " + gameObject.name);            
+            
 
             if (changingAltitude == false)
             {
@@ -54,12 +52,13 @@ namespace ConaLuk
             float difference = 1 - upVec.magnitude;
             float finalDiff = Physics.gravity.magnitude * difference;
             Vector3 engineForce = Vector3.zero;
-            Vector3 downwardMomentum = new Vector3(transform.position.x, y: -1, transform.position.z);
+            Vector3 downwardMomentum = new Vector3(1f, -1f, 1f);
 
             if (inputs.Throtle <= - 0.01)
             {
-                engineForce = (transform.position - downwardMomentum) * ((rb.mass * -Physics.gravity.magnitude + finalDiff) + (inputs.Throtle * maxPower)) / 4f;
+                engineForce = (transform.up - downwardMomentum) * ((rb.mass * -Physics.gravity.magnitude + finalDiff) + (inputs.Throtle / maxPower)) / 4f;
             }
+
             else engineForce = transform.up * ((rb.mass * Physics.gravity.magnitude + finalDiff) + (inputs.Throtle * maxPower)) / 2f;
 
             rb.AddForce(engineForce, ForceMode.Force);

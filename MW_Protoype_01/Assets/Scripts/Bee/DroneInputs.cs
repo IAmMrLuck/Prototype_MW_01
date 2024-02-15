@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,11 +18,13 @@ namespace ConaLuk
         private float pedals;
         private float throtle;
         private float boost;
+        private float cameraVert;
 
         public Vector2 Cyclic { get => cyclic;  }
         public float Pedals { get => pedals; }
         public float Throtle { get => throtle; }
         public float Boost { get => boost; set => boost = value; }
+        public float CameraVert { get => cameraVert;  }
 
         #endregion
 
@@ -54,6 +57,11 @@ namespace ConaLuk
         private void OnBoost(InputValue inputValue)
         {
             boost = inputValue.Get<float>();
+        }
+
+        private void OnCameraVert(InputValue inputValue)
+        {
+            cameraVert = inputValue.Get<float>();
         }
         #endregion
 
